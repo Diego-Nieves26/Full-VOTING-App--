@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+}
+
+.containt-main-recent {
+  background-color: #d7d6d9;
+  border-color: black;
+  width: 45%;
+  border-width: 3px;
+  border-style: solid;
+}
+.card1 {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  display: flex;
+  gap: 20px;
+}
+
+.card1 > img{
+  width: 100%;
+  max-width: 100px;
+}

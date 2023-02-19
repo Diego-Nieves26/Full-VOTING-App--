@@ -1,0 +1,28 @@
+h1 {
+  border-width: 3px;
+  border-style: solid;
+  padding: 9px;
+  width: 98%;
+  height: 40px;
+  text-align: center;
+  background-color: #d7d6d9;
+}
+
+.btn-create {
+  background-color: #546b8c;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.contenedor__btn{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}

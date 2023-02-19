@@ -1,0 +1,11 @@
+h2 {
+  text-align: center;
+}
+
+.containt-main {
+  background-color: #d7d6d9;
+  border-color: black;
+  width: 45%;
+  border-width: 3px;
+  border-style: solid;
+}
