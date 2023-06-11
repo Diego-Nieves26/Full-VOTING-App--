@@ -1,7 +1,7 @@
 import React from "react";
+import Header from "../components/Header";
 import RecentPolls from "../components/RecentPolls";
-import Header from "./../components/Header";
-import Top3Polls from "./../components/Top3Polls";
+import Top3Polls from "../components/Top3Polls";
 
 export default function Homepage() {
   return (
