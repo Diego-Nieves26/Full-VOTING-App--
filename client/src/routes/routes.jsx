@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import Survey from "../pages/Survey";
 import FormVoting from "../pages/FormVoting";
 import Homepage from "../pages/Homepage";
 import Result from "../pages/Result";
+import Survey from "../pages/Survey";
 
 export default createBrowserRouter([
   {
@@ -22,7 +22,7 @@ export default createBrowserRouter([
         element: <Survey />,
       },
       {
-        path: "/result",
+        path: "/result/:id",
         element: <Result />,
       },
     ],

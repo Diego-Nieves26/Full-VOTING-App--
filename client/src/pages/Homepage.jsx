@@ -1,17 +1,16 @@
 import React from "react";
-import Recentpolls from "../components/recentpolls";
+import RecentPolls from "../components/RecentPolls";
 import Header from "./../components/Header";
-import Top3polls from "./../components/Top3polls";
-//import "../stylesheet/.css";
+import Top3Polls from "./../components/Top3Polls";
 
 export default function Homepage() {
   return (
     <div className="limit__width">
       <Header />
-      <div className="div-2">
-        <Top3polls />
-        <Recentpolls />
-      </div>
+      <section className="home__polls flex__center">
+        <Top3Polls />
+        <RecentPolls />
+      </section>
     </div>
   );
 }

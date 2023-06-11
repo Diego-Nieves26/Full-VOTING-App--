@@ -1,8 +1,11 @@
 require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const puerto = process.env.PUERTO;
+
+// Routers
+const { votingRouter } = require("./routes/voting.routes");
 
 require("./config/mongoose_config");
 
@@ -12,8 +15,11 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
-require("./routes/votingdojo_routes")(app);
+// Define endpoints
+app.use("/api/v1/voting", votingRouter);
 
-app.listen(puerto, () => {
-  console.log("Listening at Port " + puerto);
+const port = process.env.PORT || 4000;
+
+app.listen(port, () => {
+  console.log("Listening at Port " + port);
 });

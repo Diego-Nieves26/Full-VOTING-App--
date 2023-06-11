@@ -1,0 +1,32 @@
+.question__card {
+  background-color: white;
+  padding: 10px;
+  border: 3px solid #1560bd;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.question__card > img {
+  width: 100px;
+}
+
+.question__card_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.question__card_btn > button {
+  padding: 5px 10px;
+  background-color: #29ab87;
+  border: 3px solid #1560bd;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
